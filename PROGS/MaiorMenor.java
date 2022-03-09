@@ -12,7 +12,7 @@ public class MaiorMenor {
 
          int idadeInt = Integer.parseInt(idadeString);
 
-         if (idadeInt > 13) {
+         if (1 =< idadeInt & idadeInt > 13 ) {
                 sim.showMessageDialog(null, "Ih ala, para pf, vc nao tem mais idade pra ficar jogando esse fortnite mano");
 
 
