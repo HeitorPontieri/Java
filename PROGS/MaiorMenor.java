@@ -11,13 +11,22 @@ public class MaiorMenor {
 
          int idadeInt = Integer.parseInt(idadeString);
 
-         if (1 =< idadeInt & idadeInt > 13 ) {
-                sim.showMessageDialog(null, "Ih ala, para pf, vc nao tem mais idade pra ficar jogando esse fortnite mano");
+         if (-1 < idadeInt & idadeInt <= 120 ) {
+                sim.showMessageDialog(null, "Parabens, vc esta vivendo agora =)");
 
 
          }
          else {
-            sim.showMessageDialog(null, " Dessa vez vc passou, mas ja vai tomando jeito e vai saindo desse mundo de fortnite ein");
+            sim.showMessageDialog(null, " Vc nao existe seu tosco, volta pra tumba =0");
+         }
+
+         if (17 <idadeInt) {
+             sim.showMessageDialog(null, "Olha, a principesa tambem pode dirigir ja");
+
+         }
+
+         else {
+            sim.showMessageDialog(null, "e fio, vc ta vivo ou nao e so pode andar no lado do passageiro");
          }
 
     }
