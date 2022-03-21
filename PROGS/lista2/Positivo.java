@@ -12,7 +12,7 @@ public class Positivo {
     if (numint>0) {
             eu.showMessageDialog(null, "Esse numero bonitao ai e positivo viu");
 
-            if ( numint = 0) {
+            if ( numint= 0) {
                 eu.showMessageDialog(null, "Esse numero que tu escolheu é um baita de um zero bem redondinho");
 
             }       
