@@ -1,13 +1,18 @@
-
+import java.util.Scanner;
 
 public class Fatorial {
     public static void main(String[] args) {
 
-        int Fat = 1;
-        int n = 15;
+        Scanner ler = new Scanner(System.in);
+        
+        System.out.println("\n Informe um numero\n");
 
-        for(int i  = 1; i<=n; i++){ 
-            System.out.println(Fat = Fat * i);
+        int n = ler.nextInt();
+        int Fat = 1;
+        
+
+        for(int i = 1; i<=n; i++){ 
+            System.out.println (Fat = Fat * i);
         }
     }
 }
