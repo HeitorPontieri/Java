@@ -1,7 +1,4 @@
 import java.util.Scanner;
-
-import javax.print.event.PrintJobListener;
-
 public class Fatorial {
     public static void main(String[] args) {
 
