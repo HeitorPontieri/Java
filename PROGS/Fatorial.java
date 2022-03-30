@@ -1,18 +1,30 @@
 import java.util.Scanner;
+
 public class Fatorial {
     public static void main(String[] args) {
 
         Scanner ler = new Scanner(System.in);
         
-        System.out.println("\n Informe um numero\n");
+        while (true) {
+            
+        
+        System.out.println("\n Informe um numero positivo\n");
 
         int n = ler.nextInt();
-        int Fat = 1;
+        long fat = n;
         
-        System.out.println();
-        for(int i = 1; i<=n; i++){ 
-            System.out.println (Fat = Fat * i);
-            
-        }
+        if (n>=1) {
+            for(int i=2 ; i<n ; i++){
+                    fat *= i;
+            }
+            System.out.println(n +"! = " + fat);
+            System.exit(0);
+        }  
+
+        System.out.println("Somente numeros positivos sao aceitos");
     }
-}
+  }
+}   
+
+ 
+
