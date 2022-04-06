@@ -22,13 +22,11 @@ public class Par {
         sim.showMessageDialog(null, "O numero informado eh impar");
     }
 
-    String p = sim.showInputDialog(null, "Deseja continuar? [s/n]");
-    if (!p.equals("s") && p.equals("sim")) {
-        
+    String p = sim.showInputDialog(null, "Deseja continuar? [sim/nao]");
+    if (!p.equalsIgnoreCase("sim")) {
+        System.exit(0);   
     }
-    else{
-        break;
-    }
+   
 }
 }
 }
