@@ -4,8 +4,7 @@ public class Par {
     public static void main(String[] args) {
             
     JOptionPane sim = new JOptionPane();
-    char op= 's';
-    while(op == 's') {
+    
     while (true) {
 
     String numString = sim.showInputDialog(null, "Informe um numero");
@@ -27,7 +26,6 @@ public class Par {
         System.exit(0);   
     }
    
-}
 }
 }
 }
