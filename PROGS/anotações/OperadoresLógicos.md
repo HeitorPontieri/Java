@@ -1,6 +1,6 @@
 # Estrutura de Decisão
 
-* Precisa decidir algo, como uma catraca de ônibus, se tiver dinheiro suficiente no cartão, a catraca libera já se não tiver dinheiro no bilhete único, a catraca não abre e mostra a mensagem "crédito insuficiente"
+    * Precisa decidir algo, como uma catraca de ônibus, se tiver dinheiro suficiente no cartão, a catraca libera já se não tiver dinheiro no bilhete único, a catraca não abre e mostra a mensagem "crédito insuficiente"
 
 [Desvio condicional]
 
@@ -22,7 +22,7 @@
 
 # Operadores Relacionais [comparação]
 
-* Eles relacionam variáveis, são como a os operadores matemáticos, mas tem a ver com a comparação entre variavéis ou classes
+    * Eles relacionam variáveis, são como a os operadores matemáticos, mas tem a ver com a comparação entre variavéis ou classes
       
       > -  maior que
       < - menor que
@@ -34,20 +34,20 @@
 
 # Java
 
--> bloco do if {} -> para executar as instruções caso a informação que foi inserida seja VERDADEIRO, pode ser usado sem o else
+    -> bloco do if {} -> para executar as instruções caso a informação que foi inserida seja VERDADEIRO, pode ser usado sem o else
 
--> bloco do else {} -> serve para executar as instruções caso o teste lógico seja FALSO, ele não pode ser usado sem o if, já que o else depende do if 
+    -> bloco do else {} -> serve para executar as instruções caso o teste lógico seja FALSO, ele não pode ser usado sem o if, já que o else depende do if 
 
 # Qual a delimitação para idades válidas
 
-1 ... 120
+    1 ... 120
 
-* Teste lógico para o limite inferior (1)
+    * Teste lógico para o limite inferior (1)
 
-idade >= 1
+    idade >= 1
 
-* Teste lógico para o limite superior (120)
-idade =< 120
+    * Teste lógico para o limite superior (120)
+    idade =< 120
 
 # Para expressões lógicas [Unir dois testes lógicos]
 

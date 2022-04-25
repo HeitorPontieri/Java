@@ -1,21 +1,21 @@
 
 ## Primitivos e Complexos
 
-* Primitivos são as váriaveis que foram criadas e implementadas juntas do java e são os únicos sendo váriaveis em si
-Ex : Int / Double
+    * Primitivos são as váriaveis que foram criadas e implementadas juntas do java e são os únicos sendo váriaveis em si
+    Ex : Int / Double
 
-* Complexos são as variaveis que foram criadas depois do java ser lançado e não são váriaveis, mas sim classes com métodos e tudo mais.
+    * Complexos são as variaveis que foram criadas depois do java ser lançado e não são váriaveis, mas sim classes com métodos e tudo mais.
 
 ## Classe
 
-Toda classe por organização está guardadas em um pacotes, os pacotes agem como pastas para armazenar classe que não são primitivas ao Java
+    Toda classe por organização está guardadas em um pacotes, os pacotes agem como pastas para armazenar classe que não são primitivas ao Java
 
-Ex : import javax.swing.JOptionPane;
+    Ex : import javax.swing.JOptionPane;
 
 
 ## Entrada de dados 
 
-* Forma gráfica
+    * Forma gráfica
     É quando aparece um bloquinho para digitação para obter esses dados
 
     Classe : JOptionPane

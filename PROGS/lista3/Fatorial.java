@@ -5,7 +5,7 @@ public class Fatorial {
 
         Scanner ler = new Scanner(System.in);
 
-        while (true) {
+        while (true) { 
             while (true) {
                 System.out.println("Informe um numero positivo");
                 int n = ler.nextInt();

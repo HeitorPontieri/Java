@@ -5,9 +5,9 @@ import javax.swing.JOptionPane;
     public static void main(String[] args) {
         JOptionPane jp = new JOptionPane();
 
-        String numerosString = jp.showInputDialog(null, "Digite um numero, se for colocar decimal, não coloque virgula =)");
+        String numerosString = jp.showInputDialog(null, "Digite um numero, se for colocar decimal, não coloque virgula =)";
         
-        String numerosString2 = jp.showInputDialog(null, "Digite um numero se for colocar decimal, não coloque virgula =)P");
+        String numerosString2 = jp.showInputDialog(null, "Digite um numero se for colocar decimal, não coloque virgula =)";
 
        
         double num1 = Double.parseDouble(numerosString);

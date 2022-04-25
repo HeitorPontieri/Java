@@ -1,7 +1,6 @@
 
 ==> Continuar com laço for
 
-
 Exercício:
 
 1. Elaborar um programa em Java que exibe na tela 
@@ -27,8 +26,7 @@ Obs.: Testar com o valor 15
 
 0, 1, 2 ... 10
 
-
-*********************************
+---------------------------------------------------------------------------//------------------------------------------------------
 Laços aninhados/encadeado
 
 for (int i=0 ;;) {

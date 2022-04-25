@@ -1,6 +1,6 @@
 import javax.swing.JOptionPane;
 
-public class RaizJp {
+public class PotJp {
     public static void main(String[] args) {
         JOptionPane jp = new JOptionPane();
 
