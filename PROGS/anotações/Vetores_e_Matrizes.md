@@ -12,7 +12,7 @@
 
 new =  palavra reservada para alocar espaço na memória RAM
         
-IDE = Integrated Development Environment -> Ambiente Integrado, tem tudo para rodar
+IDE = Integrated Development Environment -> Ambiente Integrado, tem tudo para rodar o código
 
             
                  
