@@ -14,6 +14,27 @@ new =  palavra reservada para alocar espaço na memória RAM
         
 IDE = Integrated Development Environment -> Ambiente Integrado, tem tudo para rodar o código
 
+        ** Array List
+        |> é um vetor flexível, sem ter seu conteúdo especificado antes 
+                |> precisa ser importado
+                    |> modelo de código "ArrayList<Tipo da Variavel> Nome da variavel = new ArrayList <Tipo da Variavel>();"
+                            |>"import java.util.ArrayList  ArrayList<Double> idade = new ArrayList<Double>();"
+                                |> precisam ser informadas as classes e seu nome precisam estar dentro de um maior menor e chamadas do mesmo jeito que no método int
+
+                                
+                                ex : byte -> Byte
+                                     short -> Short
+                                     int -> Integer
+                                     long -> Long
+                                     float -> Float
+                                     double -> Double
+                        
+
+        
+        matriz == array 
+
+        
+
             
                  
 
