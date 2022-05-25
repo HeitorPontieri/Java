@@ -1,6 +1,8 @@
 
 package com.mycompany.mavenproject1;
 
+import static java.lang.reflect.Array.get;
+
 public class Conta {
      /* DECRARAÇÃO DOS ATRUBTOS
         
@@ -17,6 +19,32 @@ public class Conta {
     private String agencia = "ag-123";
     private String conta = "1234-5678";
     private double saldo = 10000;
+    /**MÉTODOS FUNCIONAIS DA CLASSE CONTA**/
+    
+    /*MÉTODO DE VERIFICAR SALDO*/
+    public double verificarSaldo(){
+        return getSaldo();
+    }
+    /*MÉTODO DE RELIZAR DEPÓSITO*/
+    public void realizarDeposito(double valorDeposito){
+      /* 1º FORMA DE ATUALIZAR O SALDO */ 
+      // this.saldo = this.saldo + valorDeposito;
+      
+      /* 2º FORMA DE ATUALIZAR O SALDO */ 
+      // this.saldo += valorDeposito;
+      
+      /* 3º FORMA DE ATUALIZAR O SALDO */ 
+      setSaldo(valorDeposito + getSaldo());
+    }
+    
+    /*MÉTODO DE REALIZAR SAQUE*/
+    public void realizarSaque(double valorSaque){
+        setSaldo(getSaldo()- valorSaque);
+        
+    }
+    
+    
+    /*MÉTODOS DE GET E SET DA CLASSE CONTA*/
     
     /*DECLARAÇÃO DOS MÉTODOS DE GET: */
     
@@ -34,6 +62,7 @@ public class Conta {
     public double getSaldo(){
         return saldo; 
     }
+    
     /*DECLARAÇÃO DOS MÉTODOS DE SET:*/
     
     /*Método setAgencia*/
