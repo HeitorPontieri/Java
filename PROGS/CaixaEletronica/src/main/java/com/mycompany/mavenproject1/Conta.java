@@ -6,19 +6,19 @@ import static java.lang.reflect.Array.get;
 public class Conta {
      /* DECRARAÇÃO DOS ATRUBTOS
         
-        1 - Vidibilidade
+        1 - Visibilidade
             1.1 - Public
             1.2 - Protected
             1.3 - Private
         2- tipo do dado
         3- Nome
         4 - Valor(Opcional)
-  
     */
     
     private String agencia = "ag-123";
     private String conta = "1234-5678";
     private double saldo = 10000;
+    
     /**MÉTODOS FUNCIONAIS DA CLASSE CONTA**/
     
     /*MÉTODO DE VERIFICAR SALDO*/

@@ -41,15 +41,27 @@ public class Caixa {
                 break;
 
             case 3:
-                System.out.println("DIGITE O VALOR DO SAQUE");
-                valor = ler.nextDouble();
-                objConta.realizarSaque(valor);
-               System.out.println("SALDO ATUAL: " + objConta.verificarSaldo());
+                
+                while(true){
+                   
+                    System.out.println("DIGITE O VALOR DO SAQUE");
+                    valor = ler.nextDouble();
+                    if(valor <= objConta.getSaldo()&& valor > 0){
+                        objConta.realizarSaque(valor);
+                        break; 
+                    }
+                    else{
+                        System.out.println("SAQUE INVÁLIDO");
+                    }
+                    objConta.realizarSaque(valor);
+                }
+                
                 break;
-            
-            case 4 :
-                System.out.println("OBRIGADO POR ESCOLHER O NOSSO SISTEMA =) ");
-                break;
+              
+                   
+            case 4:
+                    System.out.println("OBRIGADO POR ESCOLHER O NOSSO SISTEMA =) ");
+                    break;
             
             default :
                 System.out.println("OPÇÃO INVÁLIDA!");
